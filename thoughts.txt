@@ -1,0 +1,39 @@
+
+
+Have an idea (take the gif idea)  --> look for examples 
+
+- Sketch rough picture of the layout (What should we include?)
+    - About Me 
+    - Section with of our projects
+    - Contacts (links to your linked or social)
+    - Header
+    - Naviagation
+    - Footer
+
+
+- Think about the structure 
+    - wireframing --> Think of your sections as lego blocks or "containers"
+    - think about putting lick content together in containers or <sections>
+
+    <section class="aboutMe">
+        <h2> About Me </h2>
+        <ul> 
+            <li>Click Here </li>
+
+        </ul>
+    </section>
+
+
+-  Top to Bottom Style
+
+        - Header
+        - Naviagation
+        - About Me
+        - Projects
+        - Footer
+
+
+
+- Keep in mind HTML element block vs inline vs inline-block 
+
+
