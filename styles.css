@@ -1,0 +1,25 @@
+.photo {
+    height: 300px;
+    width: 300px;
+ }
+
+ .header {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+ .link {
+    color: aqua;
+    font-size: 4rem;
+ }
+
+ .name {
+    font-size: 4rem;
+ }
+
+ .nav {
+    display: flex;
+    flex-direction: column;
+ }
