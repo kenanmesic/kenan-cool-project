@@ -8,6 +8,7 @@
     width: 100vw;
     justify-content: space-evenly;
     align-items: center;
+    background-color: cornflowerblue;
  }
 
  .link {
@@ -17,9 +18,98 @@
 
  .name {
     font-size: 4rem;
+    color: blue;
  }
 
  .nav {
     display: flex;
     flex-direction: column;
  }
+
+ .aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: brown;
+ }
+
+ .halfcard {
+   flex: 0 0 1;
+   padding: 5px;
+   text-align: center;
+   border-style: solid;
+   border-width: 1px;
+   border-color: transparent;
+   width: 45%;
+   margin-bottom: 20px;
+   align-items: center;
+   
+}
+ 
+.halfcard img {
+   width: 75%;
+   min-width: 200px;
+}
+
+
+
+
+ footer {
+   background-color: var(--freedomBrown);
+   padding: 30px 0px 30px;
+   color: var(--liberationGold);
+   text-align: center;
+}
+
+footer h2 {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 13px;
+   margin-bottom: -2px;
+   text-decoration: underline;
+}
+
+footer p {
+   font-size: 10px;
+}
+
+footer p a{
+   text-transform: lowercase;
+   line-height: 25px;
+   text-decoration: none;
+}
+
+footer p a:link {
+   color: var(--liberationGold);
+}
+
+footer p a:hover {
+   color: var(--shimmeringLight);
+   font-weight: bold;
+   font-size: 15px;
+}
+
+footer p a:visited {
+   color: var(--liberationGold);
+}
+
+footer p a:visited:hover {
+   color: var(--shimmeringLight);
+}
+
+#portfolio {
+   padding-top: 25px;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 35px;
+   margin-bottom: 30px;
+
+}
+
+.main  {
+
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+}
